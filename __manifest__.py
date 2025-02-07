@@ -31,11 +31,12 @@
     # only loaded in demonstration mode
     'assets': {
         'web.assets_backend': [
-            'owl_js/static/src/js/*.js',
-            'owl_js/static/src/scss/*.scss',
+            'odoo-JS/static/src/js/*.js',
+            'odoo-JS/static/src/xml/*.xml',
+            'odoo-JS/static/src/scss/*.scss',
         ],
         'web.assets_qweb': [
-            'owl_js/static/src/xml/*.xml',
+            # 'odoo-JS/static/src/xml/*.xml',
         ],
     },
 }
